@@ -14,6 +14,9 @@ importers:
       '@visactor/vue-vtable':
         specifier: ^1.17.6
         version: 1.17.6
+      tslib:
+        specifier: ^2.8.1
+        version: 2.8.1
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
@@ -783,6 +786,9 @@ packages:
   topojson-server@3.0.1:
     resolution: {integrity: sha1-0rPsCVtnMimb52pIQGERsyAaNPU=, tarball: https://registry.npm.wps.cn/topojson-server/download/topojson-server-3.0.1.tgz}
     hasBin: true
+
+  tslib@2.8.1:
+    resolution: {integrity: sha1-YS7+TtI11Wfoq6Xypfq3AoCt6D8=, tarball: https://registry.npm.wps.cn/tslib/download/tslib-2.8.1.tgz}
 
   typedarray@0.0.6:
     resolution: {integrity: sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=, tarball: https://registry.npm.wps.cn/typedarray/download/typedarray-0.0.6.tgz}
@@ -1579,6 +1585,8 @@ snapshots:
   topojson-server@3.0.1:
     dependencies:
       commander: 2.20.3
+
+  tslib@2.8.1: {}
 
   typedarray@0.0.6: {}
 

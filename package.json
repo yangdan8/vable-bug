@@ -11,6 +11,7 @@
   "dependencies": {
     "@visactor/vtable": "^1.17.2",
     "@visactor/vue-vtable": "^1.17.6",
+    "tslib": "^2.8.1",
     "vue": "^3.5.13"
   },
   "devDependencies": {

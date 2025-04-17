@@ -4,11 +4,13 @@ import { createApp } from 'vue'
 
 // createApp(App).mount('#app')
 
-import { PivotTable } from '@visactor/vtable';
+import {
+  PivotTable,
+} from "@visactor/vue-vtable";
 
 const app = createApp({
     template: `
-      <PivotTable2 :options="tableOptions" />
+      <PivotTable2 :options="tableOptions" height="500px" />
     `,
     data() {
         return {
